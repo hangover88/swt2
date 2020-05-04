@@ -14,5 +14,6 @@ public class GreetingController {
     @ResponseBody
     public String greeting() {
         return message;
+// hallowelt
     }
 }
