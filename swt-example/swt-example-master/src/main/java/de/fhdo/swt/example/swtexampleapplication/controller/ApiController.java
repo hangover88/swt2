@@ -47,5 +47,5 @@ public class ApiController {
     public void deleteJourney(@PathVariable Long id) {
         journeyRepository.deleteById(id);
     }
-    //hallo ente
+    //hallo welt
 }
