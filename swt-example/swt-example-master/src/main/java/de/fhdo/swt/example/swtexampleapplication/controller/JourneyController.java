@@ -30,7 +30,7 @@ public class JourneyController {
     public String showAddJourneyForm(Journey journey) {
         return "add-journey";
     }
-
+    //ein kommentar
     @PostMapping("/journey/add")
     public String addJourney(@Valid Journey journey, BindingResult result, Model model) {
         if (result.hasErrors()) {
