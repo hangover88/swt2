@@ -24,7 +24,7 @@ public class JourneyController {
         model.addAttribute("journeys", journeyRepository.findAll());
         return "journey";
     }
-
+    //Hallo Welt
     @GetMapping("/journey/add")
     public String showAddJourneyForm(Journey journey) {
         return "add-journey";
