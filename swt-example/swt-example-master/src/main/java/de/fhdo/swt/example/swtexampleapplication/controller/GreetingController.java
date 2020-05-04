@@ -14,6 +14,5 @@ public class GreetingController {
     @ResponseBody
     public String greeting() {
         return message;
-        //valerij check
     }
 }
