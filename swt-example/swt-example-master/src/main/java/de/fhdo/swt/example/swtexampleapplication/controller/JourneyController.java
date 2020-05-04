@@ -41,7 +41,7 @@ public class JourneyController {
         model.addAttribute("journeys", journeyRepository.findAll());
         return "journey";
     }
-
+    //zwei kommentar
     @GetMapping("/journey/edit/{id}")
     public String showJourneyUpdateForm(@PathVariable("id") long id, Model model) {
         Journey journey = journeyRepository.findById(id)
