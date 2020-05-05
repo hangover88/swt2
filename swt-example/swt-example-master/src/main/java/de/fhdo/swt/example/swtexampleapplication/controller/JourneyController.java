@@ -16,7 +16,7 @@ import javax.validation.Valid;
 @Controller
 public class JourneyController {
 	//Neuer KOmmentar
-	//hhhh
+	//hhhh qwhdqwhdq du valerij
     @Autowired
     private JourneyRepository journeyRepository;
 
