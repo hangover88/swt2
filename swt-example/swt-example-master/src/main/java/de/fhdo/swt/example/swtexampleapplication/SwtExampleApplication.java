@@ -12,7 +12,6 @@ public class SwtExampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SwtExampleApplication.class, args);
-		//Hallo
 	}
 
 }
