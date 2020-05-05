@@ -15,7 +15,7 @@ import javax.validation.Valid;
 
 @Controller
 public class JourneyController {
-		//test valeria
+		//test valerij
 	
     @Autowired
     private JourneyRepository journeyRepository;
