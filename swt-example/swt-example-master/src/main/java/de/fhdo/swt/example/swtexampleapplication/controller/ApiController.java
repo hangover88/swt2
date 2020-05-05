@@ -47,6 +47,4 @@ public class ApiController {
     public void deleteJourney(@PathVariable Long id) {
         journeyRepository.deleteById(id);
     }
-    //hallo Guten
-    //Hallo Benni das ist aus dem Branch
 }
