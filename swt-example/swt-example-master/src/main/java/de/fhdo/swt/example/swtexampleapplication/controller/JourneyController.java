@@ -15,7 +15,8 @@ import javax.validation.Valid;
 
 @Controller
 public class JourneyController {
-
+	//Neuer KOmmentar
+	//hhhh
     @Autowired
     private JourneyRepository journeyRepository;
 
@@ -24,7 +25,7 @@ public class JourneyController {
         model.addAttribute("journeys", journeyRepository.findAll());
         return "journey";
     }
-
+    //Hallo Welt
     @GetMapping("/journey/add")
     public String showAddJourneyForm(Journey journey) {
         return "add-journey";
